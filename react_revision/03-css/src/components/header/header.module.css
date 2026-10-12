@@ -1,0 +1,7 @@
+.hdr{
+    display: flex;
+    background-color: rgb(118, 118, 213);
+    width: 200px;
+    padding: 7px 20px;
+    border-radius: 12px;
+}

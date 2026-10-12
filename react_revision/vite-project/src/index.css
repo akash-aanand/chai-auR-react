@@ -1,0 +1,42 @@
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+.app{
+  display:flex;
+}
+
+.card{
+  width: 300px;
+  margin: 20px;
+  padding: 10px;
+  border: 10px solid white;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #333;
+
+
+}
+.card p{
+  color:white;
+ margin: 10px;
+}
+.card h1{
+  color: white;
+}
+.card img{
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+
+}
+.card button{
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(246, 162, 165, 0.378);
+  color: white;
+  cursor: pointer;
+} 

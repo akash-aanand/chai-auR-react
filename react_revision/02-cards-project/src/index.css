@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  -webkit-font-smoothing: antialiased; /* Font ko smooth dikhane ke liye */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.parent {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #2c2c2c; /* Dark background */
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  align-items: center;
+    justify-content: center;
+    grid-column: 3;
+}
+
+.box{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 290px;
+    width: 250px;
+    background-color: #fff; /* Light box color */
+    border-radius: 15px;
+    padding: 30px;
+
+}
+.box .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top img{
+    height: 40px;
+    width: 40px;
+    border: solid 1px #dadada;
+    padding:2px;
+    border-radius: 50%;
+
+}
+.top button{
+    margin-top: -14px;
+    display: flex;
+    padding: 4px 12px;
+    border: 1px solid #dadada;
+    font-size: 10px;
+    border-radius: 5px;
+    gap: 3px;
+    background-color: transparent; 
+    color: #b8b4b4;
+    transition: all 0.3s ease ;
+}
+.top button:hover {
+    background-color: rgb(240, 240, 240); /* Thoda light grey */
+    color: #000; /* Text color change on hover */
+    transform: translateY(-2px); /* Halki si lift movement ke liye (Optional) */
+}
+.center{
+    margin-top: 30px;
+}
+ .center h3{
+    font-size: 9px;
+    margin-bottom: 10px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+ .center p{
+    font-size: 9px;
+    color: #777;
+
+ }
+ .center h2{
+    font-size: 15px;
+    margin: 5px 0;
+    color: #000;
+ }
+ .center div{
+    display: flex;
+    gap: 5px;
+ }
+
+ .center h4{
+    width: max-content;
+    padding: 6px 12px;
+    font-size: 10px;
+    background-color: rgb(234, 234, 234);
+    border-radius: 5px;
+ }
+ .center span{
+    align-items: center;
+ }
+ .bottom{
+    margin-top: auto;
+    padding-top: 8px;
+    border-top: solid 1px rgb(234, 234, 234);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .bottom p,h3{
+    font-size: 11px;
+ }
+    .bottom p{
+        color: rgb(110, 108, 108);
+        font-family: bold;
+    }
+.bottom button{
+    background-color: #000;
+    border: none;
+    font-size: 8px;
+    border-radius: 5px;
+    color: #fcfafa;
+    padding: 5px 12px;
+   transition: all 0.3s ease;
+}
+.bottom button:hover {
+    background-color: #333; /* Thoda light black */
+    transform: translateY(-2px); /* Halki si lift movement ke liye (Optional) */
+}
+
+
