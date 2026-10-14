@@ -3,14 +3,24 @@ const UserContext =createContext();
 
 
 const Navbar=()=>{
-    const {user}=useContext(UserContext);
+  console.log("Navbar get rendered");
+
+
+  const Mininav =()=>{
+    console.log("Mininav get rendered");
+      const {user}=useContext(UserContext);
     return<>
     <div>
       <h1>hello!{user}</h1>
     </div>
     </>
   }
+  return<>
+  <Mininav/>
+  </>
+}
    const OnChangeName =()=>{
+    console.log("OnChangeNameg got render");
     const {setuser} = useContext(UserContext);
     return <>
     <div>
